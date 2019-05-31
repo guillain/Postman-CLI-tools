@@ -12,14 +12,14 @@ Extract Postman configuration and save it locally under JSON format.
 `python main.py`
 
 ## Configuration
-1/ Postman API KEY: `postman_api_key=POSTMAN_API_KEY_TO_ADD`
-1/ Postman URL: `postman_url=https://api.getpostman.com`
-1/ Pattern to search in the ressource names: `pattern_to_get=[.+]*`
-1/ Timeout of the request on Postman servere: `timeout=30`
-1/ Allow or not request redirection: `redirects=False`
-1/ To indicate a dedicated collection: `collection_uid=POSTMAN_COLLECTION_UID_KEY`
-1/ To indicate a dedicated environment: `environment_uid=POSTMAN_ENVIRONMENT_UID_KEY`
-1/ To indicate a dedicated collection: `monitor_uid=POSTMAN_MONITOR_UID_KEY`
+- Postman API KEY: `postman_api_key=POSTMAN_API_KEY_TO_ADD`
+- Postman URL: `postman_url=https://api.getpostman.com`
+- Pattern to search in the ressource names: `pattern_to_get=[.+]*`
+- Timeout of the request on Postman servere: `timeout=30`
+- Allow or not request redirection: `redirects=False`
+- To indicate a dedicated collection: `collection_uid=POSTMAN_COLLECTION_UID_KEY`
+- To indicate a dedicated environment: `environment_uid=POSTMAN_ENVIRONMENT_UID_KEY`
+- To indicate a dedicated collection: `monitor_uid=POSTMAN_MONITOR_UID_KEY`
 
 ## Output
 Files are stored in `./assets/`
